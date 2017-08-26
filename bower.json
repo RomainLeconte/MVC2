@@ -1,0 +1,20 @@
+{
+    "name": "nodejs",
+    "version": "0.1",
+    "dependencies": {
+        "angular": "latest",
+        "angular-route" : "latest"
+    },
+    "install": {
+        "path": {
+            "css": "public/css",
+            "js": "public/js"
+        },
+        "sources": {
+            "angularjs": [
+                "bower_components/angular/angular.js",
+                "bower_components/angular-route/angular-route.js"
+            ]
+        }
+    }
+}
